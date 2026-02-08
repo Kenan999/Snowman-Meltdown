@@ -4,9 +4,9 @@ from game_logic import play_game
 def main():
     while True:
         play_game()
-        replay = input("Do you want to play again? (y/n): ").lower()
+        replay = input("\nDo you want to play again? (y/n): ").lower()
         if replay != 'y':
-            print("Thanks for playing!")
+            print("\033[94mThanks for playing!\033[0m")
             break
 
 
